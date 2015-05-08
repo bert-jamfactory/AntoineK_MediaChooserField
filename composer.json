@@ -1,0 +1,19 @@
+{
+    "name": "bert-jamfactory/AntoineK_MediaChooserField",
+    "type": "magento-module",
+    "description": "Magento Extension - A new form element to browse and pick up images from the built-in Magento Media Browser.",
+    "license": "MIT",
+    "suggest": {
+        "magento-hackathon/magento-composer-installer":"*"
+    },
+    "extra": {
+      "map": [
+        ["app/code/community/AntoineK/*", "app/code/community/AntoineK"],
+        ["app/design/adminhtml/default/default/layout/antoinek/*",  "app/design/adminhtml/default/default/layout/antoinek"],
+        ["app/etc/modules/AntoineK_MediaChooserField.xml", "app/etc/modules/AntoineK_MediaChooserField.xml"],
+        ["app/locale/fr_FR/AntoineK_MediaChooserField.csv", "app/locale/fr_FR/AntoineK_MediaChooserField.csv"],
+        ["app/locale/en_US/AntoineK_MediaChooserField.csv", "app/locale/en_US/AntoineK_MediaChooserField.csv"],
+        ["js/antoinek/*", "js/antoinek"]
+      ]
+    }
+}
